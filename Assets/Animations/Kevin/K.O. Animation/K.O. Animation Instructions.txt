@@ -1,0 +1,10 @@
+K.O. Animation Instructions.
+
+There are 7 frames in the animation. 
+Frames 1,2,3 and 7 should hold for 0.2 seconds and frames 4,5 and 6 should hold for 0.1 seconds.
+
+The set pattern for this animation is:
+
+1	2	3	4	5	6	7 (The animation is not loopable)
+
+For Audio, The animation lasts approximately 2 seconds in length.
