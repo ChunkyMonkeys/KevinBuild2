@@ -1,0 +1,11 @@
+Karl Take Hit Animation Instructions
+
+The animation has 4 frames. Frame 1 should hold for 0.1 secs and Frames 3 & 4 should hold for 0.2. Frame 2 should hold for 0.1 sec when the arms are being brought into his stomach and should hold for 0.2 when he's releasing his hold.
+I will explain below.
+
+The pattern should be:
+
+1	2	3	4	3	2
+	(0.1)				(0.2)
+
+For audio, the animation lasts less than 2 seconds (approx).

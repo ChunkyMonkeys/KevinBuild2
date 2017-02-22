@@ -1,0 +1,9 @@
+Punch Animation Instructions:
+
+This animation contains 4 frames. Frames 1 and 4 should hold for 0.2 seconds and frames 2 and 3 should hold for 0.1 seconds.
+
+The animation pattern should be:
+
+1	2	3	4	3	2 (do not loop)
+
+For Audio, the animation lasts approximately just under 2 seconds.

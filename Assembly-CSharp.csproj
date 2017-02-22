@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{986A9FC0-71D7-7CBD-4948-6E90307FB1E2}</ProjectGuid>
+    <ProjectGuid>{2FAF74D6-B89D-FD06-07CB-3EA5ABA2F4F0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -38,27 +38,36 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity_5.3.5/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity_5.3.5/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\ArenaScripts\Enemy.cs" />
-     <Compile Include="Assets\Scripts\ArenaScripts\PlayerArenaScript.cs" />
+     <Compile Include="Assets\Scripts\ArenaScripts\AI\AIController.cs" />
+     <Compile Include="Assets\Scripts\ArenaScripts\AI\Enemy.cs" />
+     <Compile Include="Assets\Scripts\ArenaScripts\Kevin\KevinController.cs" />
+     <Compile Include="Assets\Scripts\ArenaScripts\Kevin\PlayerArenaScript.cs" />
+     <Compile Include="Assets\Scripts\ArenaScripts\Stats\Bar.cs" />
+     <Compile Include="Assets\Scripts\ArenaScripts\Stats\Stat.cs" />
      <Compile Include="Assets\Scripts\BringToFront.cs" />
      <Compile Include="Assets\Scripts\ModalPanel.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\Scripts\SleepPrompt.cs" />
+     <None Include="Assets\Animations\Karl\Idle\Karl Idle Animation Instructions.txt" />
+     <None Include="Assets\Animations\Karl\Take Damage\Karl Take Hit Animation Instructions.txt" />
+     <None Include="Assets\Animations\Kevin\Punch\Punch Animation Instructions.txt" />
+     <None Include="Assets\Animations\Kevin\Kick\Kick Animation Instructions.txt" />
+     <None Include="Assets\Animations\Karl\Cane Hit\Cane Hit Animation Instructions.txt" />
      <None Include="Assets\Animations\Kevin\K.O. Animation\K.O. Animation Instructions.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity_5.3.5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity_5.3.5/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

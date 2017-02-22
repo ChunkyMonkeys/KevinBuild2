@@ -1,0 +1,8 @@
+Kick Animation Instructions:
+
+There are 5 frames in this sequence. Frame 1 should hold for 0.2 seconds whilst the rest should hold for 0.1.
+
+The pattern for this animation is:
+1	2	3	4	5	4	3	2 (do not repeat)
+
+For audio, the animation lasts approximately under 1 second.

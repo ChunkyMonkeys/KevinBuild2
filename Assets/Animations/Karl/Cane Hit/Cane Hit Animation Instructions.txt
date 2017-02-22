@@ -1,0 +1,7 @@
+Karl Cane Hit Animation Instructions
+
+There are 9 frames. Frames 1 and 2 should hold for 0.1 seconds and 3 to 9 should hold for 0 seconds ('no delay' as it is called on Photoshop)
+
+The animation sequence runs in numerical order and is not loopable.
+
+For Audio, the animation should last about 1 sec approx.

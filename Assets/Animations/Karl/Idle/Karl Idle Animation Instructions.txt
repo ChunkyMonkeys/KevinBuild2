@@ -1,0 +1,8 @@
+Karl Idle Animation Instructions
+
+Animation has 3 frames. Each frame should hold for 0.2 seconds. 
+The pattern should go:
+
+1	2	3	2 (Repeat for loopable animation)
+
+In regards to audio, the clip (looped once) lasts approximately 1 second.
