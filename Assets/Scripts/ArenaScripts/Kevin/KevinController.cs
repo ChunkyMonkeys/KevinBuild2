@@ -4,7 +4,7 @@ using System.Collections;
 
 public class KevinController : MonoBehaviour {
 	[SerializeField]
-	private Stat health;
+	public Stat health;
 	public Animator animation;
 	public float stopanimation = 0;
 
@@ -15,7 +15,7 @@ public class KevinController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.A)) {
+		if (Input.GetKeyDown(KeyCode.A) && health.CurrentVal > 0) {
 			Debug.Log ("Health is decreasing");
 			health.CurrentVal -= 10;
 			animation.SetTrigger ("Taking Damage");
@@ -29,13 +29,5 @@ public class KevinController : MonoBehaviour {
 			animation.SetTrigger ("Death");
 			Debug.Log ("Death");	
 		}
-		
-			/*if (health.CurrentVal <= 0) {
-				Death ();
-			}*/
-		}
 	}
-	/*void Death() {
-		
-		}
-	}*/
+}

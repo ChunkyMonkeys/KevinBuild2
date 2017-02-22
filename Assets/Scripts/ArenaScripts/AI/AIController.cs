@@ -14,7 +14,7 @@ public class AIController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.E)) {
+		if (Input.GetKeyDown (KeyCode.E)) {
 			Debug.Log ("AI Health is decreasing");
 			health.CurrentVal -= 10;
 			animation.SetTrigger ("TakingDamage");
@@ -24,4 +24,13 @@ public class AIController : MonoBehaviour {
 			health.CurrentVal += 10;
 		}
 	}
+
+	public void Attack () {
+		GameObject Kevin = GameObject.Find ("Kevin");
+		KevinController KevinScript = Kevin.GetComponent<KevinController> ();
+		KevinScript.health.CurrentVal -= 10;
+		animation.SetTrigger ("Attack");
+	}
+
 }
+

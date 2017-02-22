@@ -1,6 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ArenaScripts\AI\AIController.cs">
+    <Files>
+      <File FileName="Assets\Scripts\ArenaScripts\Turn-based System\CombatTurns.cs" Line="30" Column="20" />
+      <File FileName="Assets\Scripts\ArenaScripts\AI\AIController.cs" Line="16" Column="16" />
+      <File FileName="Assets\Scripts\ArenaScripts\Kevin\KevinController.cs" Line="7" Column="14" />
+      <File FileName="Assets\Scripts\ArenaScripts\Stats\Stat.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

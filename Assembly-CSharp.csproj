@@ -46,11 +46,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ArenaScripts\AI\AIController.cs" />
-     <Compile Include="Assets\Scripts\ArenaScripts\AI\Enemy.cs" />
+     <Compile Include="Assets\Scripts\ArenaScripts\Buttons\buttonEndTurn.cs" />
+     <Compile Include="Assets\Scripts\ArenaScripts\Ka Beau\Enemy.cs" />
+     <Compile Include="Assets\Scripts\ArenaScripts\Ka Beau\PlayerArenaScript.cs" />
      <Compile Include="Assets\Scripts\ArenaScripts\Kevin\KevinController.cs" />
-     <Compile Include="Assets\Scripts\ArenaScripts\Kevin\PlayerArenaScript.cs" />
      <Compile Include="Assets\Scripts\ArenaScripts\Stats\Bar.cs" />
      <Compile Include="Assets\Scripts\ArenaScripts\Stats\Stat.cs" />
+     <Compile Include="Assets\Scripts\ArenaScripts\Turn-based System\CombatTurns.cs" />
      <Compile Include="Assets\Scripts\BringToFront.cs" />
      <Compile Include="Assets\Scripts\ModalPanel.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
