@@ -28,6 +28,8 @@ public class CombatTurns : MonoBehaviour {
 			break;
 		case (Turns.ENEMYTURN):
 			other.Attack ();
+			other.anim.SetBool ("Attack", false);
+			currentState = Turns.PLAYERTURN;
 			break;
 		case (Turns.LOSE):
 			break;

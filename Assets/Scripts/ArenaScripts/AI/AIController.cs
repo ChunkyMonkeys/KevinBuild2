@@ -5,11 +5,12 @@ public class AIController : MonoBehaviour {
 
 	[SerializeField]
 	private Stat health;
-	public Animator animation;
+	public Animator anim;
 
 	private void Awake () {
 		health.InitializeStat();
-		animation = gameObject.GetComponent<Animator> ();
+
+		anim = gameObject.GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -17,7 +18,7 @@ public class AIController : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.E)) {
 			Debug.Log ("AI Health is decreasing");
 			health.CurrentVal -= 10;
-			animation.SetTrigger ("TakingDamage");
+			anim.SetTrigger ("TakingDamage");
 		}
 		if (Input.GetKeyDown (KeyCode.D)) {
 			Debug.Log ("AI Health is increasing");
@@ -29,7 +30,7 @@ public class AIController : MonoBehaviour {
 		GameObject Kevin = GameObject.Find ("Kevin");
 		KevinController KevinScript = Kevin.GetComponent<KevinController> ();
 		KevinScript.health.CurrentVal -= 10;
-		animation.SetTrigger ("Attack");
+		anim.SetBool ("Attack", true);
 	}
 
 }

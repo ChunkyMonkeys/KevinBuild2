@@ -19,3 +19,24 @@ C:\Users\Betty\Documents\KevinBuild2\Temp\bin\Debug\UnityEngine.UI.xml
 C:\Users\Betty\Documents\KevinBuild2\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\Betty\Documents\KevinBuild2\obj\Debug\Assembly-CSharp.dll
 C:\Users\Betty\Documents\KevinBuild2\obj\Debug\Assembly-CSharp.pdb
+M:\1403167\Unity Projects\AFC\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\Assembly-CSharp.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\Assembly-CSharp.pdb
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\UnityEditor.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\UnityEngine.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\UnityEngine.Networking.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\UnityEngine.UI.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\Mono.Cecil.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\Unity.SerializationLogic.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\Unity.DataContract.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\Unity.UNetWeaver.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\Unity.CecilTools.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\UnityEngine.xml
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\UnityEditor.xml
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\UnityEngine.UI.xml
+M:\1403167\Unity Projects\AFC\Temp\bin\Debug\UnityEngine.Networking.xml
+M:\1403167\Unity Projects\AFC\obj\Debug\Assembly-CSharp.dll
+M:\1403167\Unity Projects\AFC\obj\Debug\Assembly-CSharp.pdb

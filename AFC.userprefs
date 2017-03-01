@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ArenaScripts\Turn-based System\CombatTurns.cs">
+    <Files>
+      <File FileName="Assets\Scripts\ArenaScripts\Turn-based System\CombatTurns.cs" Line="32" Column="36" />
+      <File FileName="Assets\Scripts\ArenaScripts\Stats\Bar.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ArenaScripts\AI\AIController.cs" Line="25" Column="28" />
+      <File FileName="Assets\Scripts\ArenaScripts\Kevin\KevinController.cs" Line="21" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
